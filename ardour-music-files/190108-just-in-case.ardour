@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="22133" name-counter="1" event-counter="46753" vca-counter="1">
+<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="28255" name-counter="1" event-counter="61835" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -105,6 +105,22 @@
     <Source name="key bass-2.wav" type="audio" flags="" id="18038" captured-for="key bass" channel="0" origin="" gain="1"/>
     <Source name="midi keys export-1.wav" type="audio" flags="" id="18087" captured-for="midi keys export" channel="0" origin="" gain="1"/>
     <Source name="midi keys export-2.wav" type="audio" flags="" id="18134" captured-for="midi keys export" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-1%L.wav" type="audio" flags="" id="27751" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-1%R.wav" type="audio" flags="" id="27753" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-2%L.wav" type="audio" flags="" id="27800" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-2%R.wav" type="audio" flags="" id="27802" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-3%L.wav" type="audio" flags="" id="27835" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-3%R.wav" type="audio" flags="" id="27837" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-4%L.wav" type="audio" flags="" id="27874" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-4%R.wav" type="audio" flags="" id="27876" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-5%L.wav" type="audio" flags="" id="27913" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-5%R.wav" type="audio" flags="" id="27915" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-6%L.wav" type="audio" flags="" id="27953" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-6%R.wav" type="audio" flags="" id="27955" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-7%L.wav" type="audio" flags="" id="27992" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-7%R.wav" type="audio" flags="" id="27994" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-8%L.wav" type="audio" flags="" id="28046" captured-for="rob guitar" channel="0" origin="" gain="1"/>
+    <Source name="rob guitar-8%R.wav" type="audio" flags="" id="28048" captured-for="rob guitar" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="in 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9777920" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="294" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -179,12 +195,12 @@
     <Region name="in 2-4.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7626259" length="121656" position="57048676" beat="1875.7501179138324" sync-position="7626259" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="33" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="8162" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1"/>
     <Region name="in 2-4.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7626259" length="121656" position="57170332" beat="1879.7501451247167" sync-position="7626259" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="34" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="8171" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1"/>
     <Region name="key guitar-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2823168" position="54691603" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="17883" type="audio" first-edit="nothing" source-0="17859" master-source-0="17859" channels="1"/>
-    <Region name="key guitar-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="410587" length="2319051" position="55102190" beat="1811.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="17891" type="audio" first-edit="nothing" source-0="17859" master-source-0="17859" channels="1"/>
+    <Region name="key guitar-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="410587" length="2319051" position="55102190" beat="1811.75" sync-position="410587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="17891" type="audio" first-edit="nothing" source-0="17859" master-source-0="17859" channels="1"/>
     <Region name="key bass-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2869248" position="53885638" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18015" type="audio" first-edit="nothing" source-0="17964" master-source-0="17964" channels="1"/>
     <Region name="midi keys export-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="160768" position="55064172" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18111" type="audio" first-edit="nothing" source-0="18087" master-source-0="18087" channels="1"/>
     <Region name="midi keys export-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="160768" position="55064172" beat="1810.4999863945575" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18119" type="audio" first-edit="nothing" source-0="18087" master-source-0="18087" channels="1"/>
     <Region name="midi keys export-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2393088" position="55064172" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18144" type="audio" first-edit="nothing" source-0="18134" master-source-0="18134" channels="1"/>
-    <Region name="midi keys export-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="38018" length="2355070" position="55102190" beat="1811.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18152" type="audio" first-edit="nothing" source-0="18134" master-source-0="18134" channels="1"/>
+    <Region name="midi keys export-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="38018" length="2355070" position="55102190" beat="1811.75" sync-position="38018" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18152" type="audio" first-edit="nothing" source-0="18134" master-source-0="18134" channels="1"/>
     <Region name="key bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1155072" position="56440397" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18189" type="audio" first-edit="nothing" source-0="18038" master-source-0="18038" channels="1"/>
     <Region name="keys-2.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2614978" length="1459862" position="57413632" beat="1887.7498049886622" sync-position="2614978" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18599" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1"/>
     <Region name="midi keys export-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="38018" length="2319058" position="57413632" beat="1887.7498049886622" sync-position="38018" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18618" type="audio" first-edit="nothing" source-0="18134" master-source-0="18134" channels="1"/>
@@ -197,10 +213,19 @@
     <Region name="key bass-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1703178" length="1166070" position="60211707" beat="1979.75" sync-position="1703178" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20431" type="audio" first-edit="nothing" source-0="17964" master-source-0="17964" channels="1"/>
     <Region name="in 1-13.60" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="60713534" beat="1996.25" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="64" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21896" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
     <Region name="in 2-13.60" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="60713534" beat="1996.2499841269841" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="64" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21906" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="rob guitar-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2149632" position="54014897" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27777" type="audio" first-edit="nothing" source-0="27751" source-1="27753" master-source-0="27751" master-source-1="27753" channels="2"/>
+    <Region name="rob guitar-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2149632" position="54014897" beat="1776.0000147392291" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27785" type="audio" first-edit="nothing" source-0="27751" source-1="27753" master-source-0="27751" master-source-1="27753" channels="2"/>
+    <Region name="rob guitar-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3614976" position="54014897" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27812" type="audio" first-edit="nothing" source-0="27800" source-1="27802" master-source-0="27800" master-source-1="27802" channels="2"/>
+    <Region name="rob guitar-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3506688" position="54022500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27851" type="audio" first-edit="nothing" source-0="27835" source-1="27837" master-source-0="27835" master-source-1="27837" channels="2"/>
+    <Region name="rob guitar-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3593728" position="54014897" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27890" type="audio" first-edit="nothing" source-0="27874" source-1="27876" master-source-0="27874" master-source-1="27876" channels="2"/>
+    <Region name="rob guitar-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3477760" position="54037707" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27930" type="audio" first-edit="nothing" source-0="27913" source-1="27915" master-source-0="27913" master-source-1="27915" channels="2"/>
+    <Region name="rob guitar-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="5065984" position="54007293" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27969" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2"/>
+    <Region name="rob guitar-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4866207" position="54007293" beat="1775.7499965986394" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27977" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2"/>
+    <Region name="rob guitar-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="344320" position="58744241" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28023" type="audio" first-edit="nothing" source-0="27992" source-1="27994" master-source-0="27992" master-source-1="27994" channels="2"/>
+    <Region name="rob guitar-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="344320" position="58744241" beat="1931.4999875283445" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28031" type="audio" first-edit="nothing" source-0="27992" source-1="27994" master-source-0="27992" master-source-1="27994" channels="2"/>
+    <Region name="rob guitar-8" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1177600" position="58736638" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28058" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="1824" control="0" order="18"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="315" name="session" start="0" end="61960500" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="424" name="mark1" start="17595200" end="17595200" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -210,7 +235,7 @@
     <Location id="1397" name="190109 - Drums - rob full kit take" start="38747172" end="38747172" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1730" name="double down" start="41785620" end="41785620" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1757" name="trying double down beat" start="44860345" end="44860345" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2973" name="Loop" start="56562052" end="57421241" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2973" name="Loop" start="58873500" end="59725086" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
     <Location id="18244" name="New Arrangement" start="53649931" end="53649931" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -232,6 +257,7 @@
           <Connection other="key guitar/audio_out 1"/>
           <Connection other="keys/audio_out 1"/>
           <Connection other="midi keys export/audio_out 1"/>
+          <Connection other="rob guitar/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="DRUM 2 1/audio_out 2"/>
@@ -243,6 +269,7 @@
           <Connection other="key guitar/audio_out 2"/>
           <Connection other="keys/audio_out 2"/>
           <Connection other="midi keys export/audio_out 2"/>
+          <Connection other="rob guitar/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="83" direction="Output" default-type="audio" user-latency="0">
@@ -473,9 +500,7 @@
       <Controllable name="solo-iso" id="1838" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1840" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="keys" id="1852" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="keys/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="keys/audio_in 1"/>
       </IO>
       <IO name="keys" id="1853" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="keys/audio_out 1">
@@ -1076,9 +1101,7 @@
       <Controllable name="solo-iso" id="8259" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="8261" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="DRUM 2 1" id="8273" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="DRUM 2 1/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="DRUM 2 1/audio_in 1"/>
       </IO>
       <IO name="DRUM 2 1" id="8274" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="DRUM 2 1/audio_out 1">
@@ -1298,9 +1321,7 @@
       <Controllable name="solo-iso" id="8307" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="8309" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="DRUM 2 2" id="8321" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="DRUM 2 2/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="DRUM 2 2/audio_in 1"/>
       </IO>
       <IO name="DRUM 2 2" id="8322" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="DRUM 2 2/audio_out 1">
@@ -1520,10 +1541,7 @@
       <Controllable name="solo-iso" id="17828" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="17830" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="key guitar" id="17842" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="key guitar/audio_in 1">
-          <Connection other="yoshimi:left"/>
-          <Connection other="yoshimi:right"/>
-        </Port>
+        <Port type="audio" name="key guitar/audio_in 1"/>
       </IO>
       <IO name="key guitar" id="17843" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="key guitar/audio_out 1">
@@ -1533,8 +1551,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="17824" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="17824" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="17826" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="17821" interpolation-style="Discrete" state="Off"/>
@@ -1551,7 +1569,7 @@ for keys used
 in yoshumi
 Wil godfrey collection, power guitar 1</Comment>
       <Pannable>
-        <Controllable name="pan-azimuth" id="17833" flags="" value="0.02884615384615382"/>
+        <Controllable name="pan-azimuth" id="17833" flags="" value="0.028846153989434242"/>
         <Controllable name="pan-width" id="17837" flags="" value="0"/>
         <Controllable name="pan-elevation" id="17835" flags="" value="0"/>
         <Controllable name="pan-frontback" id="17839" flags="" value="0"/>
@@ -1646,7 +1664,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Processor id="17847" name="key guitar" active="1" user-latency="0" own-input="1" own-output="0" output="key guitar" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="17833" flags="" value="0.02884615384615382"/>
+          <Controllable name="pan-azimuth" id="17833" flags="" value="0.028846153989434242"/>
           <Controllable name="pan-width" id="17837" flags="" value="0"/>
           <Controllable name="pan-elevation" id="17835" flags="" value="0"/>
           <Controllable name="pan-frontback" id="17839" flags="" value="0"/>
@@ -1672,10 +1690,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Controllable name="solo-iso" id="17933" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="17935" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="key bass" id="17947" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="key bass/audio_in 1">
-          <Connection other="yoshimi:left"/>
-          <Connection other="yoshimi:right"/>
-        </Port>
+        <Port type="audio" name="key bass/audio_in 1"/>
       </IO>
       <IO name="key bass" id="17948" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="key bass/audio_out 1">
@@ -1726,7 +1741,7 @@ Wil godfrey collection, power guitar 1</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="17922" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="17923" flags="GainLike" value="1.0697274208068848"/>
+        <Controllable name="gaincontrol" id="17923" flags="GainLike" value="0.33959886431694031"/>
       </Processor>
       <Processor id="17951" name="meter-key bass" active="1" user-latency="0" type="meter"/>
       <Processor id="17952" name="key bass" active="1" user-latency="0" own-input="1" own-output="0" output="key bass" type="main-outs" role="Main">
@@ -1771,8 +1786,8 @@ Wil godfrey collection, power guitar 1</Comment>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="18052" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="18052" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="18054" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="18049" interpolation-style="Discrete" state="Off"/>
@@ -1833,6 +1848,92 @@ Wil godfrey collection, power guitar 1</Comment>
       <Controllable name="rec-safe" id="18080" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="18078" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="midi keys export.1" name="midi keys export" id="18083" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="27706" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3849502207"/>
+      <Controllable name="solo" id="27714" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="27720" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="27722" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="rob guitar" id="27734" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="rob guitar/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="rob guitar/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="rob guitar" id="27735" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="rob guitar/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="rob guitar/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="27716" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="27718" flags="Toggle" value="0" phase-invert="00"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="27713" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="27719" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="27721" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="27715" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="27741" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="27743" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="27717" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="27745" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Comment>*notes*
+Several guitar take playlists</Comment>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="27725" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="27729" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="27727" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="27731" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="27733" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="27724" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="27726" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="27728" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="27730" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="27732" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="27737" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="27711" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="27712" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="27738" name="meter-rob guitar" active="1" user-latency="0" type="meter"/>
+      <Processor id="27736" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="27709" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="27710" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="27739" name="rob guitar" active="1" user-latency="0" own-input="1" own-output="0" output="rob guitar" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="27725" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="27729" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="27727" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="27731" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="27733" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="27724" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="27726" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="27728" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="27730" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="27732" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="27746" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="27744" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="27742" flags="Toggle,RealTime" value="1"/>
+      <Diskstream flags="Recordable" playlist="rob guitar.5" name="rob guitar" id="27747" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
   </Routes>
   <Playlists>
@@ -2860,7 +2961,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18469" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
+      <Region name="in 1-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18469" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18470" interpolation-style="Curved" state="Off">
@@ -3728,7 +3829,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842790" length="114052" position="61070897" beat="2008" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21217" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
+      <Region name="in 1-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842790" length="114052" position="61070897" beat="2008" sync-position="4842790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21217" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="21218" interpolation-style="Curved" state="Off">
@@ -4908,7 +5009,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18589" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
+      <Region name="in 2-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18589" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18590" interpolation-style="Curved" state="Off">
@@ -5776,7 +5877,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842790" length="114052" position="61070897" beat="2008" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21227" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
+      <Region name="in 2-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842790" length="114052" position="61070897" beat="2008" sync-position="4842790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21227" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="21228" interpolation-style="Curved" state="Off">
@@ -8012,7 +8113,7 @@ Wil godfrey collection, power guitar 1</Comment>
       </Region>
     </Playlist>
     <Playlist id="17961" name="key bass.1" type="audio" orig-track-id="17919" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="key bass-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="729931" length="2139317" position="54615569" beat="1795.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18023" type="audio" first-edit="nothing" source-0="17964" master-source-0="17964" channels="1">
+      <Region name="key bass-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="729931" length="2139317" position="54615569" beat="1795.75" sync-position="729931" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18023" type="audio" first-edit="nothing" source-0="17964" master-source-0="17964" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18024" interpolation-style="Curved" state="Off">
@@ -8043,7 +8144,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="key bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="859189" position="56562052" beat="1859.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18197" type="audio" first-edit="nothing" source-0="18038" master-source-0="18038" channels="1">
+      <Region name="key bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="859189" position="56562052" beat="1859.75" sync-position="121655" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18197" type="audio" first-edit="nothing" source-0="18038" master-source-0="18038" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18198" interpolation-style="Curved" state="Off">
@@ -8105,7 +8206,7 @@ Wil godfrey collection, power guitar 1</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="key bass-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="859189" position="58873500" beat="1935.75" sync-position="129258" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20021" type="audio" first-edit="nothing" source-0="18038" master-source-0="18038" channels="1">
+      <Region name="key bass-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="859189" position="58873500" beat="1935.75" sync-position="121655" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20021" type="audio" first-edit="nothing" source-0="18038" master-source-0="18038" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="20022" interpolation-style="Curved" state="Off">
@@ -8449,8 +8550,329 @@ Wil godfrey collection, power guitar 1</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="27958" name="rob guitar.5" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="rob guitar-6.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3413948" position="54007293" beat="1775.7499965986394" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28138" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28139" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28140" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28141" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28142" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="rob guitar-8.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="56562052" beat="1859.75" sync-position="136862" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28116" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28117" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28118" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28119" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28120" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="rob guitar-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3999414" length="866793" position="58006707" beat="1907.25" sync-position="3535604" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28147" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28148" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28149" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28150" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28151" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="rob guitar-8.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="58873500" beat="1935.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28066" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28067" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28068" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28069" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28070" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="rob guitar-8.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="60211707" beat="1979.75" sync-position="136862" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28213" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28214" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28215" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28216" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28217" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="rob guitar-8.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="61063293" beat="2007.75" sync-position="136862" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28235" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="28236" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="28237" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="28238" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="28239" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
-  <UnusedPlaylists/>
+  <UnusedPlaylists>
+    <Playlist id="27748" name="rob guitar.1" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="rob guitar-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3614976" position="54014897" beat="1776.0000147392291" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27820" type="audio" first-edit="nothing" source-0="27800" source-1="27802" master-source-0="27800" master-source-1="27802" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27821" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27822" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27823" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27824" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27840" name="rob guitar.2" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="rob guitar-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3506688" position="54022500" beat="1776.25" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27859" type="audio" first-edit="nothing" source-0="27835" source-1="27837" master-source-0="27835" master-source-1="27837" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27860" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27861" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27862" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27863" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27879" name="rob guitar.3" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="rob guitar-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3593728" position="54014897" beat="1776.0000147392291" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27898" type="audio" first-edit="nothing" source-0="27874" source-1="27876" master-source-0="27874" master-source-1="27876" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27899" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27900" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27901" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27902" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27918" name="rob guitar.4" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="rob guitar-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3477760" position="54037707" beat="1776.7500034013603" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27938" type="audio" first-edit="nothing" source-0="27913" source-1="27915" master-source-0="27913" master-source-1="27915" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27939" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27940" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27941" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27942" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </UnusedPlaylists>
   <RouteGroups/>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
@@ -8527,11 +8949,11 @@ Wil godfrey collection, power guitar 1</Comment>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="259" x-size="749" y-size="365"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="656" y-size="503"/>
+      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="610"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="1285" y-off="0" x-size="582" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="689" y-off="325" x-size="542" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="838" y-off="411" x-size="340" y-size="356"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -8547,6 +8969,9 @@ Wil godfrey collection, power guitar 1</Comment>
       <Window name="RPM-8293" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1824" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-6425" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-18042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-17814" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-17919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -8555,16 +8980,14 @@ Wil godfrey collection, power guitar 1</Comment>
       <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-6425-6848" visible="0" x-off="347" y-off="55" x-size="1120" y-size="854" custom-ui="1"/>
-      <Window name="P-6425-6455" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-6425-7130" visible="0" x-off="655" y-off="351" x-size="505" y-size="262" custom-ui="1"/>
-      <Window name="P-6425-6457" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-6425-6458" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-6848-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-6455-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-7130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-6457-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-6458-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1824-1855" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1854" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1856" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1855-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1854-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1856-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1857-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -8601,33 +9024,16 @@ Wil godfrey collection, power guitar 1</Comment>
       <Window name="PM-8736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1824-1855" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1854" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1856" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1855-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1854-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1856-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1857-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-17814" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-17814-17845" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17814-17844" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17814-17846" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17814-17847" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-17845-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17844-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17846-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17847-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-17919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-17919-17950" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17919-17949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17919-17951" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-17919-17952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-17950-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-17952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-18042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-6425-6848" visible="0" x-off="347" y-off="55" x-size="1120" y-size="854" custom-ui="1"/>
+      <Window name="P-6425-6455" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-6425-7130" visible="0" x-off="655" y-off="351" x-size="505" y-size="262" custom-ui="1"/>
+      <Window name="P-6425-6457" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-6425-6458" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-6848-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6455-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-7130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6457-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6458-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-18042-18073" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-18042-18072" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-18042-18074" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -8636,8 +9042,33 @@ Wil godfrey collection, power guitar 1</Comment>
       <Window name="PM-18072-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-18074-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-18075-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-17814-17845" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-17814-17844" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-17814-22030" visible="0" x-off="1030" y-off="0" x-size="890" y-size="383" custom-ui="1"/>
+      <Window name="P-17814-17846" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-17814-17847" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-17845-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17844-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-22030-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17846-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17847-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-17919-17950" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-17919-17949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-17919-17951" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-17919-17952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-17950-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-17952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-27706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-27706-27737" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-27706-27736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-27706-27738" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-27706-27739" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-27737-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-27736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-27738-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-27739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -8732,6 +9163,15 @@ Wil godfrey collection, power guitar 1</Comment>
         <Object id="automation 18048" height="66" visible="0"/>
         <Object id="automation 18042 12/0/0" height="66" visible="0"/>
         <Object id="automation 18061" height="66" visible="0"/>
+        <Object id="rtav 27706" height="116" visible="1"/>
+        <Object id="automation 27710" height="66" visible="0"/>
+        <Object id="automation 27712" height="66" visible="0"/>
+        <Object id="automation 27706 12/0/0" height="66" visible="0"/>
+        <Object id="automation 27725" height="66" visible="0"/>
+        <Object id="automation 27729" height="66" visible="0"/>
+        <Object id="strip 27706" strip-width="Wide" visible="1">
+          <Object id="processor 27736"/>
+        </Object>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
