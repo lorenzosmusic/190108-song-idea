@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="28255" name-counter="1" event-counter="61835" vca-counter="1">
+<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="39421" name-counter="1" event-counter="64495" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -584,11 +584,9 @@
       <IO name="MIDI" id="6454" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="MIDI/audio_out 1">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="midi keys export/audio_in 1"/>
         </Port>
         <Port type="audio" name="MIDI/audio_out 2">
           <Connection other="Master/audio_in 2"/>
-          <Connection other="midi keys export/audio_in 1"/>
         </Port>
         <Port type="midi" name="MIDI/midi_out 1"/>
       </IO>
@@ -1741,7 +1739,7 @@ Wil godfrey collection, power guitar 1</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="17922" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="17923" flags="GainLike" value="0.33959886431694031"/>
+        <Controllable name="gaincontrol" id="17923" flags="GainLike" value="0.530994713306427"/>
       </Processor>
       <Processor id="17951" name="meter-key bass" active="1" user-latency="0" type="meter"/>
       <Processor id="17952" name="key bass" active="1" user-latency="0" own-input="1" own-output="0" output="key bass" type="main-outs" role="Main">
@@ -1773,10 +1771,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Controllable name="solo-iso" id="18056" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="18058" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="midi keys export" id="18070" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="midi keys export/audio_in 1">
-          <Connection other="MIDI/audio_out 1"/>
-          <Connection other="MIDI/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="midi keys export/audio_in 1"/>
       </IO>
       <IO name="midi keys export" id="18071" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="midi keys export/audio_out 1">
@@ -1849,18 +1844,14 @@ Wil godfrey collection, power guitar 1</Comment>
       <Controllable name="rec-enable" id="18078" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="midi keys export.1" name="midi keys export" id="18083" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="27706" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="27706" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3849502207"/>
       <Controllable name="solo" id="27714" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="27720" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="27722" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="rob guitar" id="27734" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="rob guitar/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="rob guitar/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="rob guitar/audio_in 1"/>
+        <Port type="audio" name="rob guitar/audio_in 2"/>
       </IO>
       <IO name="rob guitar" id="27735" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="rob guitar/audio_out 1">
@@ -1905,13 +1896,13 @@ Several guitar take playlists</Comment>
         </Automation>
         <Controllable name="trimcontrol" id="27712" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="27738" name="meter-rob guitar" active="1" user-latency="0" type="meter"/>
       <Processor id="27736" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="27709" interpolation-style="Linear" state="Off"/>
         </Automation>
         <Controllable name="gaincontrol" id="27710" flags="GainLike" value="1"/>
       </Processor>
+      <Processor id="27738" name="meter-rob guitar" active="1" user-latency="0" type="meter"/>
       <Processor id="27739" name="rob guitar" active="1" user-latency="0" own-input="1" own-output="0" output="rob guitar" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
@@ -1932,7 +1923,7 @@ Several guitar take playlists</Comment>
       <Slavable/>
       <Controllable name="monitor" id="27746" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="27744" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="27742" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="27742" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="rob guitar.5" name="rob guitar" id="27747" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
   </Routes>
@@ -2930,7 +2921,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="121656" position="57299586" beat="1884" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="32" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7559" type="audio" first-edit="nothing" source-0="452" master-source-0="452" channels="1">
+      <Region name="in 1-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="106448" position="57299586" beat="1884" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="32" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7559" type="audio" first-edit="nothing" source-0="452" master-source-0="452" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="7560" interpolation-style="Curved" state="Off">
@@ -2961,7 +2952,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18469" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
+      <Region name="in 1-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="57413638" beat="1887.75" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18469" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18470" interpolation-style="Curved" state="Off">
@@ -3457,7 +3448,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-4.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="121656" position="59611018" beat="1959.9994580498867" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="45" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19621" type="audio" first-edit="nothing" source-0="452" master-source-0="452" channels="1">
+      <Region name="in 1-4.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="106465" position="59611018" beat="1959.9994580498867" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="45" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19621" type="audio" first-edit="nothing" source-0="452" master-source-0="452" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="19622" interpolation-style="Curved" state="Off">
@@ -3488,7 +3479,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-13.51" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="59732690" beat="1964" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20196" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
+      <Region name="in 1-13.51" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835185" length="121657" position="59725086" beat="1963.75" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20196" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="20197" interpolation-style="Curved" state="Off">
@@ -4978,7 +4969,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="121656" position="57299586" beat="1883.9999931972791" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="32" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7585" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1">
+      <Region name="in 2-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="106448" position="57299586" beat="1883.9999931972791" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="32" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7585" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="7586" interpolation-style="Curved" state="Off">
@@ -5009,7 +5000,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="57421241" beat="1888" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18589" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
+      <Region name="in 2-13.43" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="57413638" beat="1887.75" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="44" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18589" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18590" interpolation-style="Curved" state="Off">
@@ -5505,7 +5496,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-4.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="121656" position="59611018" beat="1959.9994580498867" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="45" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19671" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1">
+      <Region name="in 2-4.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7390552" length="106465" position="59611018" beat="1959.9994580498867" sync-position="7390552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="45" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19671" type="audio" first-edit="nothing" source-0="476" master-source-0="476" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="19672" interpolation-style="Curved" state="Off">
@@ -5536,7 +5527,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-13.51" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4842789" length="114053" position="59732690" beat="1964.0000113378685" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20206" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
+      <Region name="in 2-13.51" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835185" length="121657" position="59725086" beat="1963.75" sync-position="4842789" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20206" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="20207" interpolation-style="Curved" state="Off">
@@ -6189,7 +6180,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="keys-2.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2614978" length="486627" position="57413632" beat="1887.7498049886622" sync-position="2614978" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20099" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1">
+      <Region name="keys-2.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2614984" length="486621" position="57413638" beat="1887.75" sync-position="2614978" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="20099" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="20100" interpolation-style="Curved" state="Off">
@@ -8613,7 +8604,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="rob guitar-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3999414" length="866793" position="58006707" beat="1907.25" sync-position="3535604" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28147" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2">
+      <Region name="rob guitar-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3999414" length="866793" position="58006707" beat="1907.25" sync-position="3999414" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28147" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="28148" interpolation-style="Curved" state="Off">
@@ -8644,7 +8635,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="rob guitar-8.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="58873500" beat="1935.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28066" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
+      <Region name="rob guitar-8.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="859190" position="58873500" beat="1935.75" sync-position="136862" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="28066" type="audio" first-edit="nothing" source-0="28046" source-1="28048" master-source-0="28046" master-source-1="28048" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="28067" interpolation-style="Curved" state="Off">
@@ -8972,6 +8963,7 @@ Several guitar take playlists</Comment>
       <Window name="RPM-18042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-17814" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-17919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-27706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -8980,14 +8972,6 @@ Several guitar take playlists</Comment>
       <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1824-1855" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1854" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1856" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1824-1857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1855-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1854-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1856-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1857-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -9024,6 +9008,14 @@ Several guitar take playlists</Comment>
       <Window name="PM-8736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1824-1855" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1854" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1856" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1824-1857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1855-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1854-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1856-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1857-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-6425-6848" visible="0" x-off="347" y-off="55" x-size="1120" y-size="854" custom-ui="1"/>
       <Window name="P-6425-6455" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-6425-7130" visible="0" x-off="655" y-off="351" x-size="505" y-size="262" custom-ui="1"/>
@@ -9060,14 +9052,13 @@ Several guitar take playlists</Comment>
       <Window name="PM-17949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-17951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-17952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-27706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-27706-27737" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-27706-27736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-27706-27738" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-27706-27736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-27706-27739" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-27737-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-27736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27738-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-27736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
