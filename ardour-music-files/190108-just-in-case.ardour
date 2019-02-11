@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="67700" name-counter="1" event-counter="143731" vca-counter="1">
+<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="74913" name-counter="1" event-counter="150939" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -146,6 +146,7 @@
     <Source name="vocals-22.wav" type="audio" flags="" id="67487" captured-for="vocals" channel="0" origin="" gain="1"/>
     <Source name="vocals-23.wav" type="audio" flags="" id="67520" captured-for="vocals" channel="0" origin="" gain="1"/>
     <Source name="vocals-24.wav" type="audio" flags="" id="67553" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="MIDI noise-1.mid" type="midi" flags="Writable,CanRename" id="74571" origin=""/>
   </Sources>
   <Regions>
     <Region name="in 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9777920" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="294" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -292,9 +293,7 @@
     <Region name="vocals-24" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="249856" position="56318741" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="67587" type="audio" first-edit="nothing" source-0="67553" master-source-0="67553" channels="1"/>
     <Region name="rob guitar-6.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="250914" position="0" beat="0" sync-position="121655" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="67613" type="audio" first-edit="nothing" source-0="27953" source-1="27955" master-source-0="27953" master-source-1="27955" channels="2"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="219" control="0" order="19"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="315" name="session" start="0" end="61960500" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="424" name="mark1" start="17595200" end="17595200" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -320,6 +319,7 @@
         <Port type="audio" name="Master/audio_in 1">
           <Connection other="DRUM 2 1/audio_out 1"/>
           <Connection other="DRUM 2 2/audio_out 1"/>
+          <Connection other="MIDI noise/audio_out 1"/>
           <Connection other="MIDI/audio_out 1"/>
           <Connection other="in 1/audio_out 1"/>
           <Connection other="in 2/audio_out 1"/>
@@ -333,6 +333,7 @@
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="DRUM 2 1/audio_out 2"/>
           <Connection other="DRUM 2 2/audio_out 2"/>
+          <Connection other="MIDI noise/audio_out 2"/>
           <Connection other="MIDI/audio_out 2"/>
           <Connection other="in 1/audio_out 2"/>
           <Connection other="in 2/audio_out 2"/>
@@ -2603,7 +2604,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Diskstream flags="Recordable" playlist="midi keys export.1" name="midi keys export" id="18083" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="27706" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3849502207"/>
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3849502207"/>
       <Controllable name="solo" id="27714" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="27720" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="27722" flags="Toggle" value="0" solo-safe="0"/>
@@ -2685,7 +2686,7 @@ Several guitar take playlists</Comment>
       <Diskstream flags="Recordable" playlist="rob guitar.5" name="rob guitar" id="27747" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="66567" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="2965628415"/>
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="2965628415"/>
       <Controllable name="solo" id="66575" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="66581" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="66583" flags="Toggle" value="0" solo-safe="0"/>
@@ -2762,6 +2763,111 @@ Several guitar take playlists</Comment>
       <Controllable name="rec-safe" id="66605" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="66603" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="vocals.1" name="vocals" id="66608" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="74431" name="MIDI noise" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
+      <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3487947775"/>
+      <Controllable name="solo" id="74439" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="74445" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="74447" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="MIDI noise" id="74459" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="MIDI noise/midi_in 1"/>
+      </IO>
+      <IO name="MIDI noise" id="74460" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="MIDI noise/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="MIDI noise/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="MIDI noise/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="74441" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="74443" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="74438" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="74444" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="74446" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="74440" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="74466" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="74468" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="74442" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="74470" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="74450" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="74454" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="74452" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="74456" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="74458" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="74449" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="74451" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="74453" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="74455" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="74457" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="74564" name="General MIDI Synth" active="1" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/gmsynth" count="1" custom="0">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0"/>
+      </Processor>
+      <Processor id="74461" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="74434" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="74435" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="74463" name="meter-MIDI noise" active="1" user-latency="0" type="meter"/>
+      <Processor id="74464" name="MIDI noise" active="1" user-latency="0" own-input="1" own-output="0" output="MIDI noise" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="74450" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="74454" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="74452" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="74456" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="74458" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="74449" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="74451" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="74453" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="74455" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="74457" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="74471" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="74469" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="74467" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="MIDI noise.1" name="MIDI noise" id="74472" speed="1" capture-alignment="Automatic" record-safe="0"/>
+      <Controllable name="midicc-0-0" id="74710" flags="" value="0"/>
+      <Controllable name="midicc-0-32" id="74711" flags="" value="0"/>
+      <Controllable name="midicc-3-0" id="74579" flags="" value="0"/>
+      <Controllable name="midicc-3-32" id="74580" flags="" value="0"/>
+      <Controllable name="midicc-4-0" id="74707" flags="" value="0"/>
+      <Controllable name="midicc-4-32" id="74708" flags="" value="0"/>
+      <Controllable name="midi-pgm-change-0" id="74712" flags="" value="20"/>
+      <Controllable name="midi-pgm-change-3" id="74581" flags="" value="11"/>
+      <Controllable name="midi-pgm-change-4" id="74709" flags="" value="13"/>
     </Route>
   </Routes>
   <Playlists>
@@ -9784,7 +9890,7 @@ Several guitar take playlists</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="228103" length="917753" position="56554448" beat="1859.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="66643" type="audio" first-edit="nothing" source-0="66612" master-source-0="66612" channels="1">
+      <Region name="vocals-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="228103" length="917753" position="56554448" beat="1859.5" sync-position="228103" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="66643" type="audio" first-edit="nothing" source-0="66612" master-source-0="66612" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="66644" interpolation-style="Curved" state="Off">
@@ -10033,6 +10139,11 @@ Several guitar take playlists</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="74473" name="MIDI noise.1" type="midi" orig-track-id="74431" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="MIDI noise-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121656" position="54623172" beat="1796" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="74573" type="midi" first-edit="nothing" source-0="74571" master-source-0="74571"/>
+      <Region name="MIDI noise-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54744828" beat="1800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="74763" type="midi" first-edit="nothing" source-0="74571" master-source-0="74571"/>
+      <Region name="MIDI noise-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54866483" beat="1804" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="74769" type="midi" first-edit="nothing" source-0="74571" master-source-0="74571"/>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="27748" name="rob guitar.1" type="audio" orig-track-id="27706" shared-with-ids="" frozen="0" combine-ops="0">
@@ -10248,7 +10359,7 @@ Several guitar take playlists</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="555" y-off="194" x-size="582" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="689" y-off="325" x-size="542" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="838" y-off="411" x-size="340" y-size="356"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10268,6 +10379,7 @@ Several guitar take playlists</Comment>
       <Window name="RPM-17814" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-17919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-27706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-66567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-45652" visible="0" x-off="819" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
@@ -10278,26 +10390,6 @@ Several guitar take playlists</Comment>
       <Window name="PM-45652-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8293-8324" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-8293-8323" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-8293-8736" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
-      <Window name="P-8293-8325" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-8293-8326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-8324-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-158-46291" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
-      <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-158-191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-189-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-188-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-46291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-219-250" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-219-249" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-219-46125" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
@@ -10308,6 +10400,16 @@ Several guitar take playlists</Comment>
       <Window name="PM-46125-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-158-46291" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-158-191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-189-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-188-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-46291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8245-8276" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-8245-8275" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-8245-8569" visible="0" x-off="492" y-off="121" x-size="830" y-size="723" custom-ui="1"/>
@@ -10320,6 +10422,16 @@ Several guitar take playlists</Comment>
       <Window name="PM-47892-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8277-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8278-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-8293-8324" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-8293-8323" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-8293-8736" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-8293-8325" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-8293-8326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-8324-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1824-1855" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1824-1854" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1824-45877" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
@@ -10376,7 +10488,6 @@ Several guitar take playlists</Comment>
       <Window name="PM-27736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27738-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-66567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-66567-66598" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-66567-66597" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-66567-66599" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -10385,6 +10496,15 @@ Several guitar take playlists</Comment>
       <Window name="PM-66597-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-66599-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-66600-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-74431" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-74431-74461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-74431-74463" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-74431-74464" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-74461-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-74463-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-74464-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-74431-74564" visible="0" x-off="745" y-off="503" x-size="541" y-size="310" custom-ui="1"/>
+      <Window name="PM-74564-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -10503,7 +10623,7 @@ Several guitar take playlists</Comment>
         <Object id="automation 18048" height="66" visible="0"/>
         <Object id="automation 18042 12/0/0" height="66" visible="0"/>
         <Object id="automation 18061" height="66" visible="0"/>
-        <Object id="rtav 27706" height="116" visible="1"/>
+        <Object id="rtav 27706" height="66" visible="1"/>
         <Object id="automation 27710" height="66" visible="0"/>
         <Object id="automation 27712" height="66" visible="0"/>
         <Object id="automation 27706 12/0/0" height="66" visible="0"/>
@@ -10521,6 +10641,19 @@ Several guitar take playlists</Comment>
           <Object id="processor 66597"/>
           <Object id="processor 67556"/>
         </Object>
+        <Object id="rtav 74431" height="267" visible="1" midnam-model-name="http://gareus.org/oss/lv2/gmsynth:0x11131820" midnam-custom-device-mode="Default" color-mode="MeterColors"/>
+        <Object id="automation 74435" height="66" visible="0"/>
+        <Object id="automation 74431 12/0/0" height="66" visible="0"/>
+        <Object id="strip 74431" strip-width="Wide" visible="1">
+          <Object id="processor 74461"/>
+          <Object id="processor 74564"/>
+          <Object id="processor 74775"/>
+          <Object id="processor 74810"/>
+          <Object id="processor 74893"/>
+          <Object id="processor 74905"/>
+        </Object>
+        <Object id="automation 74450" height="66" visible="0"/>
+        <Object id="automation 74454" height="66" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
