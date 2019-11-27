@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="128251" name-counter="1" event-counter="204647" vca-counter="1">
-  <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
+<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="161934" name-counter="1" event-counter="220514" vca-counter="1">
+  <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -366,7 +366,7 @@
     <Location id="1397" name="190109 - Drums - rob full kit take" start="38747172" end="38747172" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1730" name="double down" start="41785620" end="41785620" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1757" name="trying double down beat" start="44860345" end="44860345" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2973" name="Loop" start="54615569" end="56562052" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2973" name="Loop" start="54623172" end="54744828" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
     <Location id="18244" name="working song version" start="54014897" end="54014897" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="66737" name="Punch" start="61717190" end="61945293" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
   </Locations>
@@ -2819,7 +2819,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Comment>*notes*
 Several guitar take playlists</Comment>
       <Pannable>
-        <Controllable name="pan-azimuth" id="27725" flags="" value="0.2696629213483146"/>
+        <Controllable name="pan-azimuth" id="27725" flags="" value="0.26966291666030884"/>
         <Controllable name="pan-width" id="27729" flags="" value="0"/>
         <Controllable name="pan-elevation" id="27727" flags="" value="0"/>
         <Controllable name="pan-frontback" id="27731" flags="" value="0"/>
@@ -2848,7 +2848,7 @@ Several guitar take playlists</Comment>
       <Processor id="27739" name="rob guitar" active="1" user-latency="0" own-input="1" own-output="0" output="rob guitar" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="27725" flags="" value="0.2696629213483146"/>
+          <Controllable name="pan-azimuth" id="27725" flags="" value="0.26966291666030884"/>
           <Controllable name="pan-width" id="27729" flags="" value="0"/>
           <Controllable name="pan-elevation" id="27727" flags="" value="0"/>
           <Controllable name="pan-frontback" id="27731" flags="" value="0"/>
@@ -3012,6 +3012,189 @@ Several guitar take playlists</Comment>
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0"/>
+      </Processor>
+      <Processor id="161824" name="Calf Monosynth" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Monosynth" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-2" id="161825" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="161827" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="161829" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="161831" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="161833" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="161835" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="161837" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="161839" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="161841" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="161843" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="161845" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="161847" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="161849" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="161851" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="161853" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="161855" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="161857" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="161859" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="161861" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="161863" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="161865" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="161867" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="161869" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="161871" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="161873" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="161875" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="161877" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="161879" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="161881" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="161883" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="161885" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="161887" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="161889" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="161891" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-36" id="161893" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-37" id="161895" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-38" id="161897" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-39" id="161899" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-40" id="161901" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-41" id="161903" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-42" id="161905" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-43" id="161907" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-44" id="161909" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-45" id="161911" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-46" id="161913" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-47" id="161915" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-48" id="161917" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-49" id="161919" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-50" id="161921" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-51" id="161923" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-52" id="161925" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-53" id="161927" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="http://calf.sourceforge.net/factory_presets#monosynth_Barkline" last-preset-label="Barkline" parameter-changed-since-last-preset="1" state-dir="state1">
+          <Port symbol="o1_wave" value="2"/>
+          <Port symbol="o2_wave" value="1"/>
+          <Port symbol="o1_pw" value="0"/>
+          <Port symbol="o2_pw" value="0"/>
+          <Port symbol="o12_detune" value="3"/>
+          <Port symbol="o2_xpose" value="0"/>
+          <Port symbol="phase_mode" value="4"/>
+          <Port symbol="o12_mix" value="0.79000002145767212"/>
+          <Port symbol="filter" value="1"/>
+          <Port symbol="cutoff" value="32.558101654052734"/>
+          <Port symbol="res" value="1.995419979095459"/>
+          <Port symbol="filter_sep" value="-144"/>
+          <Port symbol="env2cutoff" value="10800"/>
+          <Port symbol="env2res" value="1"/>
+          <Port symbol="env2amp" value="1"/>
+          <Port symbol="adsr_a" value="47.577499389648438"/>
+          <Port symbol="adsr_d" value="350"/>
+          <Port symbol="adsr_s" value="0.5"/>
+          <Port symbol="adsr_f" value="0"/>
+          <Port symbol="adsr_r" value="12.728699684143066"/>
+          <Port symbol="key_follow" value="1"/>
+          <Port symbol="legato" value="0"/>
+          <Port symbol="portamento" value="1"/>
+          <Port symbol="vel2filter" value="0.75999999046325684"/>
+          <Port symbol="vel2amp" value="0"/>
+          <Port symbol="master" value="0.25702846050262451"/>
+          <Port symbol="pbend_range" value="200"/>
+          <Port symbol="lfo_rate" value="5"/>
+          <Port symbol="lfo_delay" value="0.5"/>
+          <Port symbol="lfo2filter" value="0"/>
+          <Port symbol="lfo2pitch" value="100"/>
+          <Port symbol="lfo2pw" value="0"/>
+          <Port symbol="mwhl2lfo" value="1"/>
+          <Port symbol="scale_detune" value="0"/>
+          <Port symbol="adsr2_cutoff" value="0"/>
+          <Port symbol="adsr2_res" value="0.30000001192092896"/>
+          <Port symbol="adsr2_amp" value="1"/>
+          <Port symbol="adsr2_a" value="1"/>
+          <Port symbol="adsr2_d" value="100"/>
+          <Port symbol="adsr2_s" value="0.5"/>
+          <Port symbol="adsr2_f" value="0"/>
+          <Port symbol="adsr2_r" value="50"/>
+          <Port symbol="o1_stretch" value="1.6110485792160034"/>
+          <Port symbol="o1_window" value="1"/>
+          <Port symbol="lfo1_trig" value="0"/>
+          <Port symbol="lfo2_trig" value="0"/>
+          <Port symbol="lfo2_rate" value="5"/>
+          <Port symbol="lfo2_delay" value="0.5"/>
+          <Port symbol="o2_unison" value="0"/>
+          <Port symbol="o2_unisonfrq" value="2"/>
+          <Port symbol="o1_xpose" value="0"/>
+          <Port symbol="midi" value="0"/>
+        </lv2>
+        <Controllable name="Osc1 Wave" id="161826" flags="" value="2" parameter="2" symbol="o1_wave"/>
+        <Controllable name="Osc2 Wave" id="161828" flags="" value="1" parameter="3" symbol="o2_wave"/>
+        <Controllable name="Osc1 PW" id="161830" flags="" value="0" parameter="4" symbol="o1_pw"/>
+        <Controllable name="Osc2 PW" id="161832" flags="" value="0" parameter="5" symbol="o2_pw"/>
+        <Controllable name="O1&lt;&gt;2 Detune" id="161834" flags="" value="3" parameter="6" symbol="o12_detune"/>
+        <Controllable name="Osc2 Transpose" id="161836" flags="" value="0" parameter="7" symbol="o2_xpose"/>
+        <Controllable name="Phase mode" id="161838" flags="" value="4" parameter="8" symbol="phase_mode"/>
+        <Controllable name="O1&lt;&gt;2 Mix" id="161840" flags="" value="0.79000002145767212" parameter="9" symbol="o12_mix"/>
+        <Controllable name="Filter" id="161842" flags="" value="1" parameter="10" symbol="filter"/>
+        <Controllable name="Cutoff" id="161844" flags="" value="32.558101654052734" parameter="11" symbol="cutoff"/>
+        <Controllable name="Resonance" id="161846" flags="" value="1.995419979095459" parameter="12" symbol="res"/>
+        <Controllable name="Separation" id="161848" flags="" value="-144" parameter="13" symbol="filter_sep"/>
+        <Controllable name="Env-&gt;Cutoff" id="161850" flags="" value="10800" parameter="14" symbol="env2cutoff"/>
+        <Controllable name="Env-&gt;Res" id="161852" flags="" value="1" parameter="15" symbol="env2res"/>
+        <Controllable name="Env-&gt;Amp" id="161854" flags="Toggle" value="1" parameter="16" symbol="env2amp"/>
+        <Controllable name="EG1 Attack" id="161856" flags="" value="47.577499389648438" parameter="17" symbol="adsr_a"/>
+        <Controllable name="EG1 Decay" id="161858" flags="" value="350" parameter="18" symbol="adsr_d"/>
+        <Controllable name="EG1 Sustain" id="161860" flags="" value="0.5" parameter="19" symbol="adsr_s"/>
+        <Controllable name="EG1 Fade" id="161862" flags="" value="0" parameter="20" symbol="adsr_f"/>
+        <Controllable name="EG1 Release" id="161864" flags="" value="12.728699684143066" parameter="21" symbol="adsr_r"/>
+        <Controllable name="Key Follow" id="161866" flags="" value="1" parameter="22" symbol="key_follow"/>
+        <Controllable name="Legato Mode" id="161868" flags="" value="0" parameter="23" symbol="legato"/>
+        <Controllable name="Portamento" id="161870" flags="" value="1" parameter="24" symbol="portamento"/>
+        <Controllable name="Vel-&gt;Filter" id="161872" flags="" value="0.75999999046325684" parameter="25" symbol="vel2filter"/>
+        <Controllable name="Vel-&gt;Amp" id="161874" flags="" value="0" parameter="26" symbol="vel2amp"/>
+        <Controllable name="Volume" id="161876" flags="" value="0.25702846050262451" parameter="27" symbol="master"/>
+        <Controllable name="PBend Range" id="161878" flags="" value="200" parameter="28" symbol="pbend_range"/>
+        <Controllable name="LFO1 Rate" id="161880" flags="" value="5" parameter="29" symbol="lfo_rate"/>
+        <Controllable name="LFO1 Delay" id="161882" flags="" value="0.5" parameter="30" symbol="lfo_delay"/>
+        <Controllable name="LFO1-&gt;Filter" id="161884" flags="" value="0" parameter="31" symbol="lfo2filter"/>
+        <Controllable name="LFO1-&gt;Pitch" id="161886" flags="" value="100" parameter="32" symbol="lfo2pitch"/>
+        <Controllable name="LFO1-&gt;PW" id="161888" flags="" value="0" parameter="33" symbol="lfo2pw"/>
+        <Controllable name="ModWheel-&gt;LFO1" id="161890" flags="" value="1" parameter="34" symbol="mwhl2lfo"/>
+        <Controllable name="Scale Detune" id="161892" flags="" value="0" parameter="35" symbol="scale_detune"/>
+        <Controllable name="EG2-&gt;Cutoff" id="161894" flags="" value="0" parameter="36" symbol="adsr2_cutoff"/>
+        <Controllable name="EG2-&gt;Res" id="161896" flags="" value="0.30000001192092896" parameter="37" symbol="adsr2_res"/>
+        <Controllable name="EG2-&gt;Amp" id="161898" flags="Toggle" value="1" parameter="38" symbol="adsr2_amp"/>
+        <Controllable name="EG2 Attack" id="161900" flags="" value="1" parameter="39" symbol="adsr2_a"/>
+        <Controllable name="EG2 Decay" id="161902" flags="" value="100" parameter="40" symbol="adsr2_d"/>
+        <Controllable name="EG2 Sustain" id="161904" flags="" value="0.5" parameter="41" symbol="adsr2_s"/>
+        <Controllable name="EG2 Fade" id="161906" flags="" value="0" parameter="42" symbol="adsr2_f"/>
+        <Controllable name="Release" id="161908" flags="" value="50" parameter="43" symbol="adsr2_r"/>
+        <Controllable name="Osc1 Stretch" id="161910" flags="" value="1.6110485792160034" parameter="44" symbol="o1_stretch"/>
+        <Controllable name="Osc1 Window" id="161912" flags="" value="1" parameter="45" symbol="o1_window"/>
+        <Controllable name="LFO1 Trigger Mode" id="161914" flags="" value="0" parameter="46" symbol="lfo1_trig"/>
+        <Controllable name="LFO2 Trigger Mode" id="161916" flags="" value="0" parameter="47" symbol="lfo2_trig"/>
+        <Controllable name="LFO1 Rate" id="161918" flags="" value="5" parameter="48" symbol="lfo2_rate"/>
+        <Controllable name="LFO1 Delay" id="161920" flags="" value="0.5" parameter="49" symbol="lfo2_delay"/>
+        <Controllable name="Osc2 Unison" id="161922" flags="" value="0" parameter="50" symbol="o2_unison"/>
+        <Controllable name="Osc2 Unison Detune" id="161924" flags="" value="2" parameter="51" symbol="o2_unisonfrq"/>
+        <Controllable name="Osc1 Transpose" id="161926" flags="" value="0" parameter="52" symbol="o1_xpose"/>
+        <Controllable name="MIDI Channel" id="161928" flags="" value="0" parameter="53" symbol="midi"/>
       </Processor>
       <Processor id="74461" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
@@ -11462,7 +11645,7 @@ Several guitar take playlists</Comment>
       <Region name="MIDI noise-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54744828" beat="1800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="74763" type="midi" first-edit="nothing" source-0="74571" master-source-0="74571"/>
       <Region name="MIDI noise-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54866483" beat="1804" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="74769" type="midi" first-edit="nothing" source-0="74571" master-source-0="74571"/>
     </Playlist>
-    <Playlist id="118487" name="more vocals.2" type="audio" orig-track-id="127236" shared-with-ids="88919" frozen="0" combine-ops="0">
+    <Playlist id="118487" name="more vocals.2" type="audio" orig-track-id="88919" shared-with-ids="127236" frozen="0" combine-ops="0">
       <Region name="more vocals-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1833984" position="54083328" beat="1778.2500136054425" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="118539" type="audio" first-edit="nothing" source-0="118521" master-source-0="118521" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
@@ -12172,13 +12355,14 @@ Several guitar take playlists</Comment>
     <Meter pulse="0" frame="0" movable="0" lock-style="AudioTime" bbt="1|1|0" beat="0" note-type="4" divisions-per-bar="4"/>
   </TempoMap>
   <ControlProtocols>
-    <Protocol name="Ableton Push 2" active="0"/>
-    <Protocol name="Generic MIDI" active="0"/>
-    <Protocol name="PreSonus FaderPort" active="0"/>
-    <Protocol name="PreSonus FaderPort8" active="0"/>
-    <Protocol name="Mackie" active="0"/>
-    <Protocol name="Steinberg CC121" active="0"/>
     <Protocol name="Open Sound Control (OSC)" active="0"/>
+    <Protocol name="Mackie" active="0"/>
+    <Protocol name="PreSonus FaderPort" active="0"/>
+    <Protocol name="Wiimote" active="0"/>
+    <Protocol name="Ableton Push 2" active="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0"/>
+    <Protocol name="Steinberg CC121" active="0"/>
+    <Protocol name="Generic MIDI" active="0"/>
   </ControlProtocols>
   <Extra>
     <ExportRevision revision="1"/>
@@ -12197,7 +12381,7 @@ Several guitar take playlists</Comment>
       <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
       <ExportFilename>
         <Folder relative="1" path="/export"/>
-        <Field name="label" enabled="1" value="new-vocals"/>
+        <Field name="label" enabled="1" value="drum-loop-podcast"/>
         <Field name="session" enabled="1"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="0"/>
@@ -12207,21 +12391,21 @@ Several guitar take playlists</Comment>
       </ExportFilename>
     </SelectionExportProfile>
     <UI>
-      <Window name="key-editor" visible="0" x-off="88" y-off="175" x-size="601" y-size="476"/>
-      <Window name="session-options-editor" visible="0" x-off="0" y-off="259" x-size="749" y-size="365"/>
+      <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="610"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="503"/>
+      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="689" y-off="325" x-size="542" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="script-manager" visible="0" x-off="838" y-off="411" x-size="340" y-size="356"/>
+      <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="big-clock" visible="0" x-off="33" y-off="219" x-size="559" y-size="78"/>
-      <Window name="audio-connection-manager" visible="0" x-off="11" y-off="46" x-size="606" y-size="519"/>
-      <Window name="midi-connection-manager" visible="0" x-off="145" y-off="161" x-size="469" y-size="367"/>
+      <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-158" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12235,9 +12419,10 @@ Several guitar take playlists</Comment>
       <Window name="RPM-17919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-74431" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-27706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-66567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-127670" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-88919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-110670" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-66567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-45652" visible="0" x-off="819" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
@@ -12251,21 +12436,25 @@ Several guitar take playlists</Comment>
       <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-46291" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-158-128192" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
       <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-189-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-188-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-46291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-128192-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-219-250" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-219-249" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-219-46125" visible="0" x-off="811" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-219-128165" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
       <Window name="P-219-251" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-219-252" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-250-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-249-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-46125-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-128165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8245-8276" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -12338,11 +12527,11 @@ Several guitar take playlists</Comment>
       <Window name="PM-46208-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-17951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-17952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-74431-74564" visible="0" x-off="745" y-off="503" x-size="541" y-size="310" custom-ui="1"/>
+      <Window name="P-74431-159882" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-74431-74461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-74431-74463" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-74431-74464" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-74564-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-159882-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-74461-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-74463-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-74464-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12354,6 +12543,52 @@ Several guitar take playlists</Comment>
       <Window name="PM-27736-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27738-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-127670-127684" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-127670-127687" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-127670-127957" visible="0" x-off="188" y-off="25" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-127670-127930" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="P-127670-128040" visible="0" x-off="204" y-off="216" x-size="798" y-size="340" custom-ui="1"/>
+      <Window name="P-127670-127830" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-127670-127831" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-127684-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-127687-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-127957-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-127930-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-128040-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-127830-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-127831-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-88919-88950" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-88919-88949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-88919-89079" visible="0" x-off="378" y-off="215" x-size="792" y-size="437" custom-ui="1"/>
+      <Window name="P-88919-119033" visible="0" x-off="320" y-off="224" x-size="908" y-size="419" custom-ui="1"/>
+      <Window name="P-88919-128082" visible="0" x-off="188" y-off="25" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-88919-128069" visible="0" x-off="263" y-off="275" x-size="680" y-size="222" custom-ui="1"/>
+      <Window name="P-88919-88951" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-88919-88952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-88950-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-88949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-89079-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-119033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-128082-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-128069-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-88951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-88952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-110670-110701" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-110670-110700" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-110670-118949" visible="0" x-off="359" y-off="72" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-110670-118893" visible="0" x-off="375" y-off="263" x-size="798" y-size="340" custom-ui="1"/>
+      <Window name="P-110670-126912" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="P-110670-118922" visible="0" x-off="367" y-off="231" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="P-110670-110702" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-110670-110703" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-110701-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-110700-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-118949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-118893-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-126912-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-118922-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-110702-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-110703-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-66567-66598" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-66567-66597" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-66567-66599" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -12362,57 +12597,8 @@ Several guitar take playlists</Comment>
       <Window name="PM-66597-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-66599-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-66600-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-88919-88950" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-88919-88949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-88919-89079" visible="0" x-off="378" y-off="215" x-size="792" y-size="437" custom-ui="1"/>
-      <Window name="P-88919-119033" visible="0" x-off="320" y-off="224" x-size="908" y-size="419" custom-ui="1"/>
-      <Window name="P-88919-88951" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-88919-88952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-88950-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-88949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-89079-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-119033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-88951-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-88952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-110670-110701" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-110670-110700" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-110670-118949" visible="0" x-off="359" y-off="72" x-size="830" y-size="723" custom-ui="1"/>
-      <Window name="P-110670-118893" visible="0" x-off="375" y-off="263" x-size="798" y-size="340" custom-ui="1"/>
-      <Window name="P-110670-118922" visible="0" x-off="367" y-off="231" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="P-110670-110702" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-110670-110703" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-110701-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-110700-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-118949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-118893-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-118922-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-110702-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-110703-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-110670-126912" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="PM-126912-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-127670" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-127670-127684" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-127670-127687" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-127670-127830" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-127670-127831" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-127684-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-127687-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-127830-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-127831-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-127670-127930" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="PM-127930-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-127670-127957" visible="0" x-off="188" y-off="25" x-size="830" y-size="723" custom-ui="1"/>
-      <Window name="PM-127957-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-127670-128040" visible="0" x-off="204" y-off="216" x-size="798" y-size="340" custom-ui="1"/>
-      <Window name="PM-128040-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-88919-128069" visible="0" x-off="263" y-off="275" x-size="680" y-size="222" custom-ui="1"/>
-      <Window name="PM-128069-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-88919-128082" visible="0" x-off="188" y-off="25" x-size="830" y-size="723" custom-ui="1"/>
-      <Window name="PM-128082-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-219-128165" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="PM-128165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-128192" visible="0" x-off="196" y-off="184" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="PM-128192-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-74431-161824" visible="0" x-off="686" y-off="260" x-size="1094" y-size="586" custom-ui="1"/>
+      <Window name="PM-161824-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -12552,7 +12738,7 @@ Several guitar take playlists</Comment>
           <Object id="processor 66597"/>
           <Object id="processor 67556"/>
         </Object>
-        <Object id="rtav 74431" height="267" visible="1" midnam-model-name="http://gareus.org/oss/lv2/gmsynth:0xf9b4f40" midnam-custom-device-mode="Default" color-mode="MeterColors" note-range-min="48" note-range-max="61"/>
+        <Object id="rtav 74431" height="267" visible="1" midnam-model-name="DX-7" midnam-custom-device-mode="" color-mode="MeterColors" note-range-min="48" note-range-max="61"/>
         <Object id="automation 74435" height="66" visible="0"/>
         <Object id="automation 74431 12/0/0" height="66" visible="0"/>
         <Object id="strip 74431" strip-width="Wide" visible="1">
@@ -12562,6 +12748,11 @@ Several guitar take playlists</Comment>
           <Object id="processor 74810"/>
           <Object id="processor 74893"/>
           <Object id="processor 74905"/>
+          <Object id="processor 159882"/>
+          <Object id="processor 161353"/>
+          <Object id="processor 161608"/>
+          <Object id="processor 161807"/>
+          <Object id="processor 161824"/>
         </Object>
         <Object id="automation 74450" height="66" visible="0"/>
         <Object id="automation 74454" height="66" visible="0"/>
@@ -12613,6 +12804,10 @@ Several guitar take playlists</Comment>
           <Object id="processor 127930"/>
           <Object id="processor 127957"/>
           <Object id="processor 128040"/>
+        </Object>
+        <Object id="strip 161616" strip-width="Wide" visible="1">
+          <Object id="processor 161646"/>
+          <Object id="processor 161775"/>
         </Object>
       </GUIObjectState>
     </UI>
