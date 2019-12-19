@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1550989267" tv-usec="21158" name="capture">
-    <StatefulDiffCommand obj-id="118487" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="118605"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1550989418" tv-usec="606903" name="capture">
     <StatefulDiffCommand obj-id="118487" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -425,6 +416,28 @@
         <Selection>
           <StripableView id="54"/>
           <AudioRange start="56562052" end="57048672"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1565757255" tv-usec="310878" name="set loop range from region">
+    <MementoCommand obj-id="2973" type-name="ARDOUR::Location">
+      <Location id="2973" name="Loop" start="56562052" end="57048672" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      <Location id="2973" name="Loop" start="54623172" end="54744828" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5800" left-frame="53196422" y-origin="660">
+        <Selection>
+          <Regions>
+            <Region id="74573"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5800" left-frame="53196422" y-origin="660">
+        <Selection>
+          <Regions>
+            <Region id="74573"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
