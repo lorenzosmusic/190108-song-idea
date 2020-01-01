@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="271092" name-counter="1" event-counter="358584" vca-counter="1">
+<Session version="3002" name="190108-just-in-case" sample-rate="44100" end-is-free="0" id-counter="284127" name-counter="1" event-counter="368405" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -184,6 +184,15 @@
     <Source name="more vocals 1-5.wav" type="audio" flags="" id="198529" captured-for="more vocals 1" channel="0" origin="" gain="1"/>
     <Source name="190108-just-in-case_intro-long-loop-podcast_r1_190602%L.wav" type="audio" flags="" id="218115" channel="0" origin="" gain="1"/>
     <Source name="190108-just-in-case_intro-long-loop-podcast_r1_190602%R.wav" type="audio" flags="" id="218117" channel="0" origin="" gain="1"/>
+    <Source name="MIDI noise-3.mid" type="midi" flags="Writable,CanRename" id="283537" origin=""/>
+    <Source name="MIDI noise-4.mid" type="midi" flags="Writable,CanRename" id="283545" origin=""/>
+    <Source name="MIDI noise-5.mid" type="midi" flags="Writable,CanRename" id="283553" origin=""/>
+    <Source name="MIDI noise-6.mid" type="midi" flags="Writable,CanRename" id="283561" origin=""/>
+    <Source name="MIDI noise-7.mid" type="midi" flags="Writable,CanRename" id="283569" origin=""/>
+    <Source name="MIDI noise-8.mid" type="midi" flags="Writable,CanRename" id="283577" origin=""/>
+    <Source name="MIDI noise-9.mid" type="midi" flags="Writable,CanRename" id="283585" origin=""/>
+    <Source name="MIDI noise-10.mid" type="midi" flags="Writable,CanRename" id="283593" origin=""/>
+    <Source name="MIDI noise-11.mid" type="midi" flags="Writable,CanRename" id="283601" origin=""/>
   </Sources>
   <Regions>
     <Region name="in 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9777920" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="294" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -228,7 +237,9 @@
     <Region name="keys-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4854528" position="46624345" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1925" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1"/>
     <Region name="keys-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1162719" length="3398741" position="53649931" beat="1764" sync-position="1162719" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4656" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1"/>
     <Region name="in 1-13.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="584858" length="182484" position="0" beat="0" sync-position="584858" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4678" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 1-13.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="72233" position="54071922" beat="1777.875" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4689" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
     <Region name="in 2-13.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="584858" length="182484" position="0" beat="0" sync-position="584858" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4704" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 2-13.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="72233" position="54071922" beat="1777.875" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4715" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
     <Region name="in 1-13.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="0" beat="0" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5124" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
     <Region name="in 2-13.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="0" beat="0" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5150" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
     <Region name="in 1-13.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4835186" length="121656" position="57048692" beat="1875.7506439909296" sync-position="4835186" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="32" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5433" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
@@ -385,6 +396,7 @@
     <Region name="chorus vocals-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="989184" position="56425190" beat="1855.2500113378685" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198174" type="audio" first-edit="nothing" source-0="198156" master-source-0="198156" channels="1"/>
     <Region name="chorus vocals-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1098752" position="56425190" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198199" type="audio" first-edit="nothing" source-0="198189" master-source-0="198189" channels="1"/>
     <Region name="chorus vocals-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3209216" position="58740758" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198232" type="audio" first-edit="nothing" source-0="198222" master-source-0="198222" channels="1"/>
+    <Region name="chorus vocals-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132742" length="2927328" position="58873500" beat="1935.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198240" type="audio" first-edit="nothing" source-0="198222" master-source-0="198222" channels="1"/>
     <Region name="more vocals 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1799168" position="60090052" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198407" type="audio" first-edit="nothing" source-0="196926" master-source-0="196926" channels="1"/>
     <Region name="more vocals 1-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1799168" position="60090052" beat="1975.7500090702949" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198415" type="audio" first-edit="nothing" source-0="196926" master-source-0="196926" channels="1"/>
     <Region name="more vocals 1-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1817600" position="60059638" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198440" type="audio" first-edit="nothing" source-0="198430" master-source-0="198430" channels="1"/>
@@ -415,9 +427,21 @@
     <Region name="in 2-13.66" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="685603" length="58927" position="61015772" beat="2006.1875147392288" sync-position="685603" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="67" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="257616" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
     <Region name="in 1-13.67" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="708413" length="36117" position="61046185" beat="2007.1875" sync-position="708413" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="67" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="259019" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
     <Region name="in 2-13.67" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="708413" length="36117" position="61046185" beat="2007.1875" sync-position="708413" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="67" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="259029" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 1-13.57" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="19009" position="54068121" beat="1777.75" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="280909" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 1-13.58" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="691306" length="53224" position="54090931" beat="1778.5" sync-position="691306" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="280917" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 2-13.57" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="19009" position="54068121" beat="1777.7500102040817" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="280926" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 2-13.58" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="691306" length="53224" position="54090931" beat="1778.5" sync-position="691306" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="280934" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 1-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="691306" length="19009" position="54088080" beat="1778.4062585034012" sync-position="691306" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281007" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 1-13.60" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="710315" length="34215" position="54109940" beat="1779.125" sync-position="710315" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281015" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 2-13.59" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="691306" length="19009" position="54088080" beat="1778.40625" sync-position="691306" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281024" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 2-13.60" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="710315" length="34215" position="54109940" beat="1779.125" sync-position="710315" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281032" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="in 1-13.61" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="710315" length="7603" position="54108989" beat="1779.09375" sync-position="710315" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281073" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1"/>
+    <Region name="in 2-13.61" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="710315" length="7603" position="54108989" beat="1779.0937426303856" sync-position="710315" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281098" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1"/>
+    <Region name="keys-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1158917" length="421992" position="53646129" beat="1763.875" sync-position="1158917" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="283301" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1"/>
+    <Region name="keys-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1580909" length="1034069" position="54068121" beat="1777.75" sync-position="1580909" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="283309" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="74431" control="0" order="1"/>
+    <StripableAutomationControl stripable="27706" control="0" order="18"/>
   </Selection>
   <Locations>
     <Location id="315" name="session" start="0" end="61960500" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -445,6 +469,7 @@
         <Port type="audio" name="Master/audio_in 1">
           <Connection other="DRUM 2 1/audio_out 1"/>
           <Connection other="DRUM 2 2/audio_out 1"/>
+          <Connection other="MIDI noise 1/audio_out 1"/>
           <Connection other="MIDI noise/audio_out 1"/>
           <Connection other="MIDI/audio_out 1"/>
           <Connection other="Whistle/audio_out 1"/>
@@ -465,6 +490,7 @@
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="DRUM 2 1/audio_out 2"/>
           <Connection other="DRUM 2 2/audio_out 2"/>
+          <Connection other="MIDI noise 1/audio_out 2"/>
           <Connection other="MIDI noise/audio_out 2"/>
           <Connection other="MIDI/audio_out 2"/>
           <Connection other="Whistle/audio_out 2"/>
@@ -2966,7 +2992,7 @@ Wil godfrey collection, power guitar 1</Comment>
       <Diskstream flags="Recordable" playlist="midi keys export.1" name="midi keys export" id="18083" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="27706" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3849502207"/>
+      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="3849502207"/>
       <Controllable name="solo" id="27714" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="27720" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="27722" flags="Toggle" value="0" solo-safe="0"/>
@@ -3048,7 +3074,7 @@ Several guitar take playlists</Comment>
       <Diskstream flags="Recordable" playlist="rob guitar.5" name="rob guitar" id="27747" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="66567" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2965628415"/>
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="2965628415"/>
       <Controllable name="solo" id="66575" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="66581" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="66583" flags="Toggle" value="0" solo-safe="0"/>
@@ -3127,7 +3153,7 @@ Several guitar take playlists</Comment>
       <Diskstream flags="Recordable" playlist="vocals.1" name="vocals" id="66608" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="74431" name="MIDI noise" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="11" flags="MidiTrack,OrderSet" color="3487947775"/>
+      <PresentationInfo order="12" flags="MidiTrack,OrderSet" color="3487947775"/>
       <Controllable name="solo" id="74439" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="74445" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="74447" flags="Toggle" value="0" solo-safe="0"/>
@@ -3143,8 +3169,8 @@ Several guitar take playlists</Comment>
         </Port>
         <Port type="midi" name="MIDI noise/midi_out 1"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="74441" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="74441" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="74443" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="74438" interpolation-style="Discrete" state="Off"/>
@@ -3159,7 +3185,7 @@ Several guitar take playlists</Comment>
       <Comment>*note*
 Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.</Comment>
       <Pannable>
-        <Controllable name="pan-azimuth" id="74450" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="74450" flags="" value="0.98314606741573085"/>
         <Controllable name="pan-width" id="74454" flags="" value="0"/>
         <Controllable name="pan-elevation" id="74452" flags="" value="0"/>
         <Controllable name="pan-frontback" id="74456" flags="" value="0"/>
@@ -3253,7 +3279,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Processor id="74464" name="MIDI noise" active="1" user-latency="0" own-input="1" own-output="0" output="MIDI noise" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="74450" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="74450" flags="" value="0.98314606741573085"/>
           <Controllable name="pan-width" id="74454" flags="" value="0"/>
           <Controllable name="pan-elevation" id="74452" flags="" value="0"/>
           <Controllable name="pan-frontback" id="74456" flags="" value="0"/>
@@ -3286,7 +3312,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Controllable name="midi-pgm-change-4" id="74709" flags="" value="13"/>
     </Route>
     <Route id="88919" name="more vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="3854536959"/>
+      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3854536959"/>
       <Controllable name="solo" id="88927" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="88933" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="88935" flags="Toggle" value="0" solo-safe="0"/>
@@ -3688,7 +3714,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Diskstream flags="Recordable" playlist="more vocals.2" name="more vocals" id="88960" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="110670" name="someone was here vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3856981759"/>
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="3856981759"/>
       <Controllable name="solo" id="110678" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="110684" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="110686" flags="Toggle" value="0" solo-safe="0"/>
@@ -4082,7 +4108,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Diskstream flags="Recordable" playlist="someone was here vocals.2" name="someone was here vocals" id="110711" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="127670" name="more vocals 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="4034444543"/>
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="4034444543"/>
       <Controllable name="solo" id="127637" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="127843" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="127844" flags="Toggle" value="0" solo-safe="0"/>
@@ -4111,7 +4137,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
         <AutomationList automation-id="monitor" id="127854" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="127833" flags="" value="0.75"/>
+        <Controllable name="pan-azimuth" id="127833" flags="" value="0.73076923076923095"/>
         <Controllable name="pan-width" id="127834" flags="" value="0"/>
         <Controllable name="pan-elevation" id="127835" flags="" value="0"/>
         <Controllable name="pan-frontback" id="127836" flags="" value="0"/>
@@ -4134,7 +4160,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
         <Automation>
           <AutomationList automation-id="gain" id="127688" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="127689" flags="GainLike" value="0.44207936525344849"/>
+        <Controllable name="gaincontrol" id="127689" flags="GainLike" value="0.45879253745079041"/>
       </Processor>
       <Processor id="127957" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -4470,7 +4496,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Processor id="127831" name="more vocals 1" active="1" user-latency="0" own-input="1" own-output="0" output="more vocals 1" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="127833" flags="" value="0.75"/>
+          <Controllable name="pan-azimuth" id="127833" flags="" value="0.73076923076923095"/>
           <Controllable name="pan-width" id="127834" flags="" value="0"/>
           <Controllable name="pan-elevation" id="127835" flags="" value="0"/>
           <Controllable name="pan-frontback" id="127836" flags="" value="0"/>
@@ -4491,7 +4517,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Diskstream flags="Recordable" playlist="more vocals 1.2" name="more vocals 1" id="127856" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="178712" name="Whistle" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3849500671"/>
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3849500671"/>
       <Controllable name="solo" id="178720" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="178726" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="178728" flags="Toggle" value="0" solo-safe="0"/>
@@ -4771,7 +4797,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Diskstream flags="Recordable" playlist="Whistle.3" name="Whistle" id="178753" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="198066" name="chorus vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3369002495"/>
+      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3369002495"/>
       <Controllable name="solo" id="198074" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="198080" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="198082" flags="Toggle" value="0" solo-safe="0"/>
@@ -4800,7 +4826,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
         <AutomationList automation-id="monitor" id="198105" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="198085" flags="" value="0.28846153616905212"/>
+        <Controllable name="pan-azimuth" id="198085" flags="" value="0.31730769230769229"/>
         <Controllable name="pan-width" id="198089" flags="" value="0"/>
         <Controllable name="pan-elevation" id="198087" flags="" value="0"/>
         <Controllable name="pan-frontback" id="198091" flags="" value="0"/>
@@ -5007,7 +5033,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           <Port symbol="DRIVE3" value="0.094999998807907104"/>
           <Port symbol="DRIVE4" value="0.44999998807907104"/>
           <Port symbol="DRIVE5" value="1"/>
-          <Port symbol="GAIN" value="-1.9400037527084351"/>
+          <Port symbol="GAIN" value="1.7999963760375977"/>
           <Port symbol="OFFSET1" value="0.17000000178813934"/>
           <Port symbol="OFFSET2" value="0.20000000298023224"/>
           <Port symbol="OFFSET3" value="0.20000000298023224"/>
@@ -5023,7 +5049,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
         <Controllable name="DRIVE3" id="248282" flags="" value="0.094999998807907104" parameter="2" symbol="DRIVE3"/>
         <Controllable name="DRIVE4" id="248284" flags="" value="0.44999998807907104" parameter="3" symbol="DRIVE4"/>
         <Controllable name="DRIVE5" id="248286" flags="" value="1" parameter="4" symbol="DRIVE5"/>
-        <Controllable name="GAIN" id="248288" flags="" value="-1.9400037527084351" parameter="5" symbol="GAIN"/>
+        <Controllable name="GAIN" id="248288" flags="" value="1.7999963760375977" parameter="5" symbol="GAIN"/>
         <Controllable name="OFFSET1" id="248290" flags="" value="0.17000000178813934" parameter="6" symbol="OFFSET1"/>
         <Controllable name="OFFSET2" id="248292" flags="" value="0.20000000298023224" parameter="7" symbol="OFFSET2"/>
         <Controllable name="OFFSET3" id="248294" flags="" value="0.20000000298023224" parameter="8" symbol="OFFSET3"/>
@@ -5155,7 +5181,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Processor id="198099" name="chorus vocals" active="1" user-latency="0" own-input="1" own-output="0" output="chorus vocals" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="198085" flags="" value="0.28846153616905212"/>
+          <Controllable name="pan-azimuth" id="198085" flags="" value="0.31730769230769229"/>
           <Controllable name="pan-width" id="198089" flags="" value="0"/>
           <Controllable name="pan-elevation" id="198087" flags="" value="0"/>
           <Controllable name="pan-frontback" id="198091" flags="" value="0"/>
@@ -5253,6 +5279,234 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Controllable name="rec-safe" id="227995" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="227993" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="noise.1" name="noise" id="227998" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="283651" name="MIDI noise 1" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
+      <PresentationInfo order="11" flags="MidiTrack,OrderSet" color="2238899711"/>
+      <Controllable name="solo" id="283618" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="283699" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="283700" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="MIDI noise 1" id="283652" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="MIDI noise 1/midi_in 1"/>
+      </IO>
+      <IO name="MIDI noise 1" id="283653" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="MIDI noise 1/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="MIDI noise 1/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="MIDI noise 1/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="283701" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="283702" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="283703" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="283704" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="283705" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="283706" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="283707" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="283708" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="283709" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="283710" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Comment>*note*
+went back to thumb piano</Comment>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="283654" flags="" value="0.983146071434021"/>
+        <Controllable name="pan-width" id="283655" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="283656" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="283657" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="283658" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="283659" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="283660" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="283661" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="283662" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="283663" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="283886" name="MDA JX10" active="1" user-latency="0" type="lv2" unique-id="http://drobilla.net/plugins/mda/JX10" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-0" id="283887" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-1" id="283889" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-2" id="283891" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="283893" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="283895" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="283897" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="283899" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="283901" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="283903" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="283905" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="283907" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="283909" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="283911" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="283913" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="283915" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="283917" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="283919" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="283921" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="283923" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="283925" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="283927" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="283929" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="283931" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="283933" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="http://drobilla.net/plugins/mda/presets#JX10-thumb-piano" last-preset-label="Thumb Piano" parameter-changed-since-last-preset="0">
+          <Port symbol="osc_mix" value="0.72000002861022949"/>
+          <Port symbol="osc_tune" value="0.81999999284744263"/>
+          <Port symbol="osc_fine" value="1"/>
+          <Port symbol="glide" value="0"/>
+          <Port symbol="gld_rate" value="0.34999999403953552"/>
+          <Port symbol="gld_bend" value="0.5"/>
+          <Port symbol="vcf_freq" value="0.37000000476837158"/>
+          <Port symbol="vcf_reso" value="0.4699999988079071"/>
+          <Port symbol="vcf_env" value="0.54000002145767212"/>
+          <Port symbol="vcf_lfo" value="0"/>
+          <Port symbol="vcf_vel" value="0.5"/>
+          <Port symbol="vcf_att" value="0"/>
+          <Port symbol="vcf_dec" value="0.44999998807907104"/>
+          <Port symbol="vcf_sus" value="0"/>
+          <Port symbol="vcf_rel" value="0.38999998569488525"/>
+          <Port symbol="env_att" value="0"/>
+          <Port symbol="env_dec" value="0.38999998569488525"/>
+          <Port symbol="env_sus" value="0"/>
+          <Port symbol="env_rel" value="0.47999998927116394"/>
+          <Port symbol="lfo_rate" value="0.81000000238418579"/>
+          <Port symbol="vibrato" value="0.60000002384185791"/>
+          <Port symbol="noise" value="0"/>
+          <Port symbol="octave" value="0.70999997854232788"/>
+          <Port symbol="tuning" value="0.5"/>
+        </lv2>
+        <Controllable name="OSC Mix" id="283888" flags="" value="0.72000002861022949" parameter="0" symbol="osc_mix"/>
+        <Controllable name="OSC Tune" id="283890" flags="" value="0.81999999284744263" parameter="1" symbol="osc_tune"/>
+        <Controllable name="OSC Fine" id="283892" flags="" value="1" parameter="2" symbol="osc_fine"/>
+        <Controllable name="Glide" id="283894" flags="" value="0" parameter="3" symbol="glide"/>
+        <Controllable name="Gld Rate" id="283896" flags="" value="0.34999999403953552" parameter="4" symbol="gld_rate"/>
+        <Controllable name="Gld Bend" id="283898" flags="" value="0.5" parameter="5" symbol="gld_bend"/>
+        <Controllable name="VCF Freq" id="283900" flags="" value="0.37000000476837158" parameter="6" symbol="vcf_freq"/>
+        <Controllable name="VCF Reso" id="283902" flags="" value="0.4699999988079071" parameter="7" symbol="vcf_reso"/>
+        <Controllable name="VCF Env" id="283904" flags="" value="0.54000002145767212" parameter="8" symbol="vcf_env"/>
+        <Controllable name="VCF LFO" id="283906" flags="" value="0" parameter="9" symbol="vcf_lfo"/>
+        <Controllable name="VCF Vel" id="283908" flags="" value="0.5" parameter="10" symbol="vcf_vel"/>
+        <Controllable name="VCF Att" id="283910" flags="" value="0" parameter="11" symbol="vcf_att"/>
+        <Controllable name="VCF Dec" id="283912" flags="" value="0.44999998807907104" parameter="12" symbol="vcf_dec"/>
+        <Controllable name="VCF Sus" id="283914" flags="" value="0" parameter="13" symbol="vcf_sus"/>
+        <Controllable name="VCF Rel" id="283916" flags="" value="0.38999998569488525" parameter="14" symbol="vcf_rel"/>
+        <Controllable name="ENV Att" id="283918" flags="" value="0" parameter="15" symbol="env_att"/>
+        <Controllable name="ENV Dec" id="283920" flags="" value="0.38999998569488525" parameter="16" symbol="env_dec"/>
+        <Controllable name="ENV Sus" id="283922" flags="" value="0" parameter="17" symbol="env_sus"/>
+        <Controllable name="ENV Rel" id="283924" flags="" value="0.47999998927116394" parameter="18" symbol="env_rel"/>
+        <Controllable name="LFO Rate" id="283926" flags="" value="0.81000000238418579" parameter="19" symbol="lfo_rate"/>
+        <Controllable name="Vibrato" id="283928" flags="" value="0.60000002384185791" parameter="20" symbol="vibrato"/>
+        <Controllable name="Noise" id="283930" flags="" value="0" parameter="21" symbol="noise"/>
+        <Controllable name="Octave" id="283932" flags="" value="0.70999997854232788" parameter="22" symbol="octave"/>
+        <Controllable name="Tuning" id="283934" flags="" value="0.5" parameter="23" symbol="tuning"/>
+      </Processor>
+      <Processor id="283672" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="283673" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="283674" flags="GainLike" value="0.44304585456848145"/>
+      </Processor>
+      <Processor id="283691" name="GxMetalHead" active="0" user-latency="0" type="lv2" unique-id="http://guitarix.sourceforge.net/plugins/gxmetal_head#metal_head" count="2" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-0" id="283692" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-1" id="283693" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-2" id="283694" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="283695" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <InputMap-1>
+          <Channelmap type="audio" from="0" to="1"/>
+        </InputMap-1>
+        <OutputMap-1>
+          <Channelmap type="audio" from="0" to="1"/>
+        </OutputMap-1>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="TONE" value="0.63500005006790161"/>
+          <Port symbol="DRIVE" value="1"/>
+          <Port symbol="PREGAIN" value="3.7999999523162842"/>
+          <Port symbol="GAIN1" value="-0.99999946355819702"/>
+        </lv2>
+        <Controllable name="TONE" id="283686" flags="" value="0.63500005006790161" parameter="0" symbol="TONE"/>
+        <Controllable name="DRIVE" id="283687" flags="" value="1" parameter="1" symbol="DRIVE"/>
+        <Controllable name="PREGAIN" id="283688" flags="" value="3.7999999523162842" parameter="2" symbol="PREGAIN"/>
+        <Controllable name="GAIN1" id="283689" flags="" value="-0.99999946355819702" parameter="3" symbol="GAIN1"/>
+      </Processor>
+      <Processor id="283696" name="meter-MIDI noise" active="1" user-latency="0" type="meter"/>
+      <Processor id="283697" name="MIDI noise 1" active="1" user-latency="0" own-input="1" own-output="0" output="MIDI noise 1" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="283654" flags="" value="0.983146071434021"/>
+          <Controllable name="pan-width" id="283655" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="283656" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="283657" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="283658" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="283659" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="283660" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="283661" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="283662" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="283663" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="283739" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="283740" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="283741" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="MIDI noise 1.1" name="MIDI noise 1" id="283736" speed="1" capture-alignment="Automatic" record-safe="0"/>
+      <Controllable name="midicc-0-0" id="283712" flags="" value="0"/>
+      <Controllable name="midicc-0-32" id="283714" flags="" value="0"/>
+      <Controllable name="midicc-1-0" id="283716" flags="" value="0"/>
+      <Controllable name="midicc-1-32" id="283718" flags="" value="0"/>
+      <Controllable name="midicc-3-0" id="283720" flags="" value="0"/>
+      <Controllable name="midicc-3-32" id="283722" flags="" value="0"/>
+      <Controllable name="midicc-4-0" id="283724" flags="" value="0"/>
+      <Controllable name="midicc-4-32" id="283726" flags="" value="0"/>
+      <Controllable name="midi-pgm-change-0" id="283728" flags="" value="47"/>
+      <Controllable name="midi-pgm-change-1" id="283730" flags="" value="37"/>
+      <Controllable name="midi-pgm-change-3" id="283732" flags="" value="11"/>
+      <Controllable name="midi-pgm-change-4" id="283734" flags="" value="13"/>
     </Route>
   </Routes>
   <Playlists>
@@ -5474,31 +5728,31 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 1-13.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="72233" position="54071922" beat="1777.875" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4689" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
+      <Region name="in 1-13.62" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="668496" length="76034" position="54068121" beat="1777.75" sync-position="717918" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281081" type="audio" first-edit="nothing" source-0="1697" master-source-0="1697" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="4690" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="281082" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="4691" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="281083" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="4692" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="281084" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="4693" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="281085" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -7553,31 +7807,31 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="in 2-13.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="672297" length="72233" position="54071922" beat="1777.875" sync-position="672297" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4715" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
+      <Region name="in 2-13.62" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="668496" length="76034" position="54068121" beat="1777.75" sync-position="717918" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="281106" type="audio" first-edit="nothing" source-0="1722" master-source-0="1722" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="4716" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="281107" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="4717" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="281108" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="4718" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="281109" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="4719" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="281110" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -9477,7 +9731,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="keys-2.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1158917" length="1456061" position="53646129" beat="1763.875" sync-position="1158917" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18307" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1">
+      <Region name="keys-2.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1158917" length="1456061" position="53649931" beat="1764" sync-position="1158917" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18307" type="audio" first-edit="nothing" source-0="1915" master-source-0="1915" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="18308" interpolation-style="Curved" state="Off">
@@ -13665,7 +13919,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       </Region>
     </Playlist>
     <Playlist id="198108" name="chorus vocals.1" type="audio" orig-track-id="198066" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="chorus vocals-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1098752" position="56425190" beat="1855.2500113378685" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198207" type="audio" first-edit="nothing" source-0="198189" master-source-0="198189" channels="1">
+      <Region name="chorus vocals-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="798362" position="56562052" beat="1859.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198207" type="audio" first-edit="nothing" source-0="198189" master-source-0="198189" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="198208" interpolation-style="Curved" state="Off">
@@ -13696,31 +13950,62 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="chorus vocals-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3060070" position="58740758" beat="1931.3854671201816" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198240" type="audio" first-edit="nothing" source-0="198222" master-source-0="198222" channels="1">
+      <Region name="chorus vocals-4.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132742" length="798362" position="58873500" beat="1935.75" sync-position="132742" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="284068" type="audio" first-edit="nothing" source-0="198222" master-source-0="198222" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="198241" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="284069" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="198242" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="284070" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="198243" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="284071" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="198244" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="284072" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="chorus vocals-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1470949" length="1589121" position="60211707" beat="1979.75" sync-position="931104" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="284077" type="audio" first-edit="nothing" source-0="198222" master-source-0="198222" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="284078" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="284079" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="284080" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="284081" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -13729,7 +14014,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       </Region>
     </Playlist>
     <Playlist id="198396" name="more vocals 1.2" type="audio" orig-track-id="127670" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="more vocals 1-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="988160" position="56440397" beat="1855.7500147392291" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198547" type="audio" first-edit="nothing" source-0="198529" master-source-0="198529" channels="1">
+      <Region name="more vocals 1-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121655" length="798362" position="56562052" beat="1859.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198547" type="audio" first-edit="nothing" source-0="198529" master-source-0="198529" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="198548" interpolation-style="Curved" state="Off">
@@ -13760,7 +14045,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="more vocals 1-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1019904" position="58736638" beat="1931.2500022675738" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198481" type="audio" first-edit="nothing" source-0="198463" master-source-0="198463" channels="1">
+      <Region name="more vocals 1-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="136862" length="798362" position="58873500" beat="1935.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198481" type="audio" first-edit="nothing" source-0="198463" master-source-0="198463" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="198482" interpolation-style="Curved" state="Off">
@@ -13791,7 +14076,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="more vocals 1-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1741190" position="60059638" beat="1974.7500022675738" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198448" type="audio" first-edit="nothing" source-0="198430" master-source-0="198430" channels="1">
+      <Region name="more vocals 1-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="152069" length="1589121" position="60211707" beat="1979.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="198448" type="audio" first-edit="nothing" source-0="198430" master-source-0="198430" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="198449" interpolation-style="Curved" state="Off">
@@ -13855,6 +14140,17 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           </AutomationList>
         </InverseFadeOut>
       </Region>
+    </Playlist>
+    <Playlist id="283536" name="MIDI noise 1.1" type="midi" orig-track-id="283651" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="MIDI noise-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54623172" beat="1795.9999863945577" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283539" type="midi" first-edit="nothing" source-0="283537" master-source-0="283537"/>
+      <Region name="MIDI noise-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54744828" beat="1800.0000136054421" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283547" type="midi" first-edit="nothing" source-0="283545" master-source-0="283545"/>
+      <Region name="MIDI noise-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="54866483" beat="1804.0000079365079" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283555" type="midi" first-edit="nothing" source-0="283553" master-source-0="283553"/>
+      <Region name="MIDI noise-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="56083034" beat="1843.9999841269841" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283563" type="midi" first-edit="nothing" source-0="283561" master-source-0="283561"/>
+      <Region name="MIDI noise-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="56204690" beat="1848.0000113378685" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283571" type="midi" first-edit="nothing" source-0="283569" master-source-0="283569"/>
+      <Region name="MIDI noise-8.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="56326345" beat="1852.0000056689341" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283579" type="midi" first-edit="nothing" source-0="283577" master-source-0="283577"/>
+      <Region name="MIDI noise-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="58392582" beat="1919.9375034013606" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283587" type="midi" first-edit="nothing" source-0="283585" master-source-0="283585"/>
+      <Region name="MIDI noise-10.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="58514237" beat="1923.9374977324262" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283595" type="midi" first-edit="nothing" source-0="283593" master-source-0="283593"/>
+      <Region name="MIDI noise-11.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="121655" position="58635892" beat="1927.9374920634921" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="283603" type="midi" first-edit="nothing" source-0="283601" master-source-0="283601"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -14456,7 +14752,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="584" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14600,10 +14896,12 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Window name="PM-227987-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-227989-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-227990-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-74431-271085" visible="0" x-off="648" y-off="36" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="P-74431-74461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-74431-228628" visible="0" x-off="322" y-off="235" x-size="519" y-size="225" custom-ui="1"/>
       <Window name="P-74431-74463" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-74431-74464" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-271085-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-74461-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-228628-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-74463-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14700,8 +14998,17 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
       <Window name="PM-198365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-198098-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-198099-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-74431-271085" visible="0" x-off="648" y-off="36" x-size="20" y-size="20" custom-ui="1"/>
-      <Window name="PM-271085-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-283651" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-283651-283672" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-283651-283691" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-283651-283696" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-283651-283697" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-283672-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-283691-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-283696-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-283697-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-283651-283886" visible="0" x-off="719" y-off="0" x-size="630" y-size="672" custom-ui="0"/>
+      <Window name="PM-283886-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -14844,7 +15151,7 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
           <Object id="processor 66597"/>
           <Object id="processor 67556"/>
         </Object>
-        <Object id="rtav 74431" height="267" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="48" note-range-max="61"/>
+        <Object id="rtav 74431" height="66" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="48" note-range-max="61"/>
         <Object id="automation 74435" height="66" visible="0"/>
         <Object id="automation 74431 12/0/0" height="66" visible="0"/>
         <Object id="strip 74431" strip-width="Wide" visible="1">
@@ -15006,6 +15313,17 @@ Yoshumi Plucked bank sounds using plucked 3 with the GXmeatal head effect added.
         <Object id="strip 248163" visible="1" strip-width="Wide">
           <Object id="processor 248193"/>
           <Object id="processor 248220"/>
+        </Object>
+        <Object id="rtav 283651" height="361" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 283674" height="66" visible="0"/>
+        <Object id="automation 283651 12/0/0" height="66" visible="0"/>
+        <Object id="automation 283654" height="66" visible="0"/>
+        <Object id="automation 283655" height="66" visible="0"/>
+        <Object id="strip 283651" strip-width="Wide" visible="1">
+          <Object id="processor 283670"/>
+          <Object id="processor 283672"/>
+          <Object id="processor 283691"/>
+          <Object id="processor 283886"/>
         </Object>
       </GUIObjectState>
     </UI>
